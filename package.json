@@ -48,5 +48,12 @@
     "tailwindcss": "^3.4.1",
     "tsx": "^4.15.7",
     "typescript": "^5"
-  }
+  },
+  "description": "Save any public link — YouTube, Instagram, Twitter/X, or any website — and search your saved bookmarks using **natural language**. Powered by Gemini, Grok, OpenAI Embeddings, and Pinecone.",
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC"
 }
