@@ -67,6 +67,8 @@ Processing happens **once per URL globally**. If 100 users save the same YouTube
 | Embeddings | OpenAI `text-embedding-3-small` |
 | Storage | AWS S3 / Cloudflare R2 |
 | Auth | NextAuth.js (Google OAuth + credentials) |
+| Deploy | Vercel |
+
 
 ---
 
@@ -83,6 +85,7 @@ Processing happens **once per URL globally**. If 100 users save the same YouTube
 ```bash
 git clone <repo>
 cd ai-bookmark-saver
+npm install autoprefixer
 npm install
 ```
 
